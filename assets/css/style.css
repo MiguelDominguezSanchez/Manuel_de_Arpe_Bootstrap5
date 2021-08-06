@@ -578,30 +578,13 @@ hr {
 /*///////////////////*/	/* SECTION 9 */
 
 #section9 {
-  /*text-align: center;*/
   padding: 50px;
   text-align: left;
-
   background-color: rgba(95, 93, 74, 0.2);
-
-  
-
-  color: #2c2e0f !important;
-
-
 }
 
-#section9 {
-  /*text-align: center;*/
-}
-
-#section9 h2 {
-  /*font-family: 'LASVALLESTexturedRegular';*/
-  font-size: 50px;
-  text-transform: uppercase;
-
-  font-family: 'ArchiveGaramondExp';
-  text-transform: uppercase;
+#section9 i {
+  color: #5F5D4A;
 }
 
 
