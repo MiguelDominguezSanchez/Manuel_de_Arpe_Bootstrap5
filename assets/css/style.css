@@ -186,8 +186,14 @@ background-color: #3A2C15 ;
     text-align: left;
 }
 
+a {
+  color: #FDFAE0;
+  text-decoration: none;
+}
+
 a:hover {
-  color: #5F5D4A !important;
+  color: #5F5D4A;
+  text-decoration: none;
 }
 
 .btn-primary{
@@ -226,11 +232,11 @@ a:hover {
   border: none;
 }
 
-.MiguelDominguez {
+/* .MiguelDominguez {
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
   font-size: 21px;
-}
+} */
 
   /* Navbar */
 .nav-link {
@@ -348,12 +354,6 @@ a:hover {
   text-align: center;
 }
 
-#section5_1 {
-  /*background: url('../img/floral_pattern.jpg') 50% 100% repeat fixed;*/
-  background: red;
-  max-height: 5px;
-}
-
 /* Section 6 */
 
 #section6 {
@@ -378,13 +378,7 @@ a:hover {
   padding: 50px;
 }
 
-
-
-/**/
-
-/*///////////////////*/	/* SECTION 8 */
-
-/*Ma Below section8 Section 8 Styles*/
+/* Section 8 */
 
 #section8 {
 
@@ -412,36 +406,11 @@ a:hover {
   margin: 10px;
 }
 
-/*#section8 .num .num-content {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-#section8 .num span {
-  display: block;
-  font-size: 20px;
-  font-weight: normal;
-}
-
-#section8 h3 {
-	font-size: 15px !important;
-}*/
-
-/* Commented above changed from section 8 to 1 */
-/* Replaced by dividers */
-
-/**/
-
-
 /* Social MA Below */
 
 .badge.social {
 
-  /*background: #D2C98B;*/
-
   background: #dccda6;
-
-  
 
   font-size: 24px;
   height: 40px;
@@ -557,9 +526,6 @@ hr {
   font-size: 18px;
   font-weight: bold;
 }
-/* h4 {
-  font-size: 18px;
-} */
 
 #dividers-line h4 small {
 
@@ -567,15 +533,7 @@ hr {
   display: block;
 }
 
-
-
-
-
-
-
-
-
-/*///////////////////*/	/* SECTION 9 */
+/* Section 9 */
 
 #section9 {
   padding: 50px;
@@ -586,28 +544,6 @@ hr {
 #section9 i {
   color: #5F5D4A;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 blockquote {
   padding: 0;
@@ -628,6 +564,40 @@ blockquote:before {
 
 /**/
 
+/*///////////////////*/	/* SECTION 10 */
+
+#section10 {
+  text-align: center;
+    background: url('../../assets/img/bg/Signature.jpg') center center repeat fixed;
+    background-size: cover;
+    color: #2c2e0f;
+    padding: 140 0px;
+  
+  }
+
+  #section10 .btn {
+    font-size: 24px;
+  }
+
+#section10 h2 {
+    margin: 20px 0 40px;
+}
+
+/* */
+
+.btn-success{
+  background: #2c2e0f;
+  color: #D2C98B;
+  border-color: #2c2e0f;
+  transition: 1s ease-in-out;
+}
+
+.btn-success:hover {
+  background: #D2C98B;
+  color: #2c2e0f;
+  border-color: #2c2e0f;
+  transition: 1s ease-in-out;
+}
 
 
 
@@ -650,6 +620,11 @@ blockquote:before {
 .Copyright {
   font-size:14px;
 }
+
+.Footer-Wordmark {
+  font-size: 21px;
+}
+
 
 /* Modal */
 
