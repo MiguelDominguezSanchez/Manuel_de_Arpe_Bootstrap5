@@ -1,0 +1,178 @@
+/* ///////////////////////// Fonts */
+
+/* Archive Garamond */
+
+@font-face {
+  font-family: 'ArchiveGaramondPro';
+  src: url('assets/fonts/ArchiveGaramond/otf/ArchiveGaramondExp.otf');
+}
+
+@font-face {
+  font-family: 'ArchiveGaramondBold';
+  src: url('assets/fonts/ArchiveGaramond/otf/ArchiveGaramondExp-Bold.otf');
+}
+
+/*  */
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('assets/fonts/Roboto/ttf/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('assets/fonts/Roboto/ttf/Roboto-Bold.ttf');
+}
+
+/*  */
+
+.archive-garamond-pro {
+  font-family: 'ArchiveGaramondPro';
+}
+
+.archive-garamond-bold {
+  font-family: 'ArchiveGaramondBold';
+}
+
+/*  */
+
+.archive-garamond-pro {
+  font-family: 'RobotoRegular';
+}
+
+.archive-garamond-bold {
+  font-family: 'RobotoBold';
+}
+
+/*  */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+/* ///////////////////////// Color Palette */
+
+/* Color Palette */
+
+/* Green */
+
+/* 
+Light Green
+HEX: #C4BDA2 
+*/
+/* 
+Light Medium Green 
+HEX: #9B957F 
+*/
+/* 
+Dark Medium Green 
+HEX: #5F5D4A
+*/
+/* 
+Dark Green 
+HEX: #32361C 
+*/
+
+/* Brown */
+
+/* 
+Light Brown
+HEX: #FDFAE0 
+*/
+/* 
+Light Medium Brown 
+HEX: #BB923F 
+*/
+/* 
+Dark Medium Brown 
+HEX: #926014
+*/
+/* 
+Dark Brown 
+HEX: #3A2C15 
+*/
+
+/* Background Colors */
+
+/* Green */
+
+.LightGreenBG{
+background-color: #C4BDA2 ;
+}
+
+.LightMediumGreenBG{
+  background-color: #9B957F ;
+}
+
+.DarkMediumGreenBG{
+  background-color: #5F5D4A;
+} 
+
+.DarkGreenBG{
+background-color: #32361C ;
+}
+
+/* Brown */
+
+.LightBrownBG{
+  background-color: #FDFAE0 ;
+}
+
+.LightMediumBrownBG{
+  background-color: #BB923F ;
+}
+
+.DarkMediumBrownBG{
+background-color: #926014;
+}
+
+.DarkBrownBG{
+background-color: #3A2C15 ;
+} 
+
+/*  */
+
+/* Typography Colors */
+
+/* Green */
+
+.LightGreenTypo{
+  color: #C4BDA2 ;
+  }
+  
+  .LightMediumGreenTypo{
+    color: #9B957F ;
+  }
+  
+  .DarkMediumGreenTypo{
+    color: #5F5D4A;
+  } 
+  
+  .DarkGreenTypo{
+  color: #32361C ;
+  }
+  
+  /* Brown */
+  
+  .LightBrownTypo{
+    color: #FDFAE0 ;
+  }
+  
+  .LightMediumBrownTypo{
+    color: #BB923F ;
+  }
+  
+  .DarkMediumBrownTypo{
+  color: #926014;
+  }
+  
+  .DarkBrownTypo{
+  color: #3A2C15 ;
+  } 
+  
+  /*  */
+
+.nav-link {
+  color: #32361C !important;
+}
