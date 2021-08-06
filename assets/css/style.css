@@ -24,6 +24,10 @@
   src: url('assets/fonts/Roboto/ttf/Roboto-Bold.ttf');
 }
 
+/* Inconsolata */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
 /*  */
 
 .archive-garamond-pro {
@@ -190,6 +194,24 @@ a:hover {
   border: none;
 }
 
+.btn-secondary {
+  background-color: #32361C;
+  color:  #FDFAE0;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #FDFAE0;
+  color: #32361C;
+  border: none;
+}
+
+.MiguelDominguez {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 21px;
+}
+
   /* Navbar */
 .nav-link {
   color: #32361C !important;
@@ -241,6 +263,24 @@ a:hover {
   font-size: 24px;
   color: #FDFAE0;
 
+}
+
+/* Section 1 */
+
+#section1 {
+  background: url('../../assets/img/bg/Old_Paper_200311_0.jpg') 100% 0 fixed;
+
+  padding: 50px;
+}
+
+#section1 h2 {
+  font-size: 72px;
+}
+
+/* Footer */
+
+.Copyright {
+  font-size:14px;
 }
 
 /* Media queries */
