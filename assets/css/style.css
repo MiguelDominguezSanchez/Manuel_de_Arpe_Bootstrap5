@@ -369,6 +369,38 @@ a:hover {
     margin: 10px;
 }
 
+/* Section 7 */
+
+#section7 {
+  background: url('../../assets/img/bg/floral_pattern.jpg') 50% 100% repeat fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 50px;
+}
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 
 .Copyright {
