@@ -16,8 +16,6 @@
 </head>
 <body>
 
-
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top LightBrownBG">
       <div class="container-fluid">
@@ -36,14 +34,14 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Bio</a>
+              <a class="nav-link" href="#section7">Youtube</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#section8">Bio</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Ipsum</a>
-            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#section11">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -51,8 +49,12 @@
 
     <!-- Body -->
 
+    <!-- Carousel -->
+    
+    <!-- SECTION0
+	================================================= -->
 
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 
   <div class="carousel-inner">
 
@@ -62,7 +64,9 @@
 
       <div class="carousel-caption d-none d-md-block">
         <h5 class="">Alétheia</h5>
-        <p class="">Some representative placeholder content for the second slide.</p>
+        <p class="">Verba volant, <span class="LightMediumBrownTypo">
+          scrīpta mānent
+        </span></p>
       </div>
     </div>
 
@@ -80,11 +84,9 @@
               <p>
                 <button class="btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Lorem</button>
               </p>
-              <h5>ipsum.<span class="LightMediumBrownTypo">
-                Lorem
-              </span></h5>
+              <h5>κέντρον</h5>
               <p class="lead my">
-                Lorem ipsum dolor sit. 
+                dolor sit. 
               </p>
               
 
@@ -116,6 +118,8 @@
   </div>
 
 </div>
+
+<!-- <section class="in-between"></section> -->
 
 <!-- SECTION1 
 	================================================= -->
@@ -419,18 +423,67 @@
 		</div><!-- /container -->
 	</section><!-- /section9 -->
 
-<!-- SECTION 10
+<!-- SECTION 11
 	================================================= -->
+
+  <!-- Contact & Map -->
+
+  <section id="section11" class="p-5">
+    <div class="container  archive-garamond-bold">
+      <div class="row g-4">
+        <div class="col-md">
+          <h2 class="text-center mb-4 DarkMediumGreenTypo uppercase">Lorem, ipsum:</h2>
+
+          <ul class="list-group list-group-flush lead archive-garamond-pro">
+
+            <li class="list-group-item">
+              <span class="fw-bold DarkMediumGreenTypo uppercase">Lorem, ipsum:</span> Lorem ipsum dolor sit amet.
+            </li>
+
+            <li class="list-group-item">
+              <span class="fw-bold  DarkMediumGreenTypo uppercase">Lorem, ipsum:</span> Lorem ipsum dolor sit amet.
+            </li>
+
+            <li class="list-group-item">
+              <span class="fw-bold  DarkMediumGreenTypo uppercase">Enrollment Phone</span> (555) 555-555
+            </li>
+
+            <li class="list-group-item">
+              <span class="fw-bold DarkMediumGreenTypo uppercase">Department Phone:</span> (333) 333-333
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold  DarkMediumGreenTypo uppercase">Enrollment Email:</span> enroll@frontendbc.test
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold  DarkMediumGreenTypo uppercase">Department Email:</span> 
+              department@frontendbc.test
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-md">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 10
+	================================================= -->
+  
 	<section id="section10" data-type="background" data-speed="4">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
-					<h2 class="archive-garamond-bold uppercase DarkGreenTypo" >Lorem, ipsum dolor.<strong>Lorem, ipsum.</strong>Lorem ipsum dolor sit.</h2>
-					<p><a href="https://www.patreon.com/user?u=32539790&fan_landing=true/" class="btn btn-lg btn-block btn-success archive-garamond-pro" target="_blank">Lorem, ipsum.</a></p>
+					<h2 class="archive-garamond-bold uppercase DarkGreenTypo" >Nulla dies <strong>sine</strong> linea</h2>
+					<p><a href="https://www.patreon.com/user?u=32539790&fan_landing=true/" class="btn btn-lg btn-block btn-success archive-garamond-pro" target="_blank">Patreon</a></p>
 				</div><!-- /col-sm-6 -->
 			</div><!-- /row -->
 		</div><!-- /container -->
 	</section><!-- /section10 -->
+
+<!--
+	================================================= -->
 
 <!-- Footer -->
 <footer class="p-5 DarkGreenBG LightGreenTypo text-center position-relative">
@@ -498,5 +551,18 @@
 </div>
 
   <script src="assets/js/bootstrap.min.js"></script>
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js'></script>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWlndWVsZG9taW5ndWV6IiwiYSI6ImNrczAybmJhZDA0NjczMHFtZjZoYXVwbnUifQ.WiF_qIa3Lb4v8fx41d-rHg';
+const map = new mapboxgl.Map({
+container: 'map', // container ID
+style: 'mapbox://styles/mapbox/streets-v11', // style URL
+center: [-71.060982, 42.35725], // starting position [lng, lat]
+zoom: 18 // starting zoom
+});
+  </script>
+
 </body>
 </html>

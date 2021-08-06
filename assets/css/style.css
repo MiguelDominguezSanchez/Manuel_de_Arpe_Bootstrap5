@@ -232,6 +232,10 @@ a:hover {
   border: none;
 }
 
+.in-between{
+  margin: 1px;
+}
+
 /* .MiguelDominguez {
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
@@ -286,7 +290,7 @@ a:hover {
 
 .carousel-caption p {
   font-family: 'RobotoRegular';
-  font-size: 24px;
+  font-size: 48px;
   color: #FDFAE0;
 
 }
@@ -375,7 +379,7 @@ a:hover {
   background: url('../../assets/img/bg/floral_pattern.jpg') 50% 100% repeat fixed;
   background-size: cover;
   text-align: center;
-  padding: 50px;
+  padding: 100px;
 }
 
 /* Section 8 */
@@ -384,7 +388,7 @@ a:hover {
 
   background: #FDFADE url('../../assets/img/logo/Hieraldry.svg') 90% -10px no-repeat;
 
-  padding: 50px;
+  padding: 100px;
 }
 
 #section8 .num {
@@ -599,7 +603,22 @@ blockquote:before {
   transition: 1s ease-in-out;
 }
 
+/*///////////////////*/	/* SECTION 11 */
 
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius:10px;
+}
+
+.mapboxgl-control-container {
+  display: none;
+}
+
+.list-group-item {
+  color: #2c2e0f;
+  border: 1px solid rgba(95, 93, 74, 0.5);
+}
 
 
 
