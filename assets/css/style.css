@@ -342,6 +342,16 @@ a:hover {
   font-size:14px;
 }
 
+/* Modal */
+
+.modal-content {
+  background-color: #FDFADE;
+}
+
+/* .modal-body {
+  
+} */
+
 /* Media queries */
 
 /* // X-Small devices (portrait phones, less than 576px)
