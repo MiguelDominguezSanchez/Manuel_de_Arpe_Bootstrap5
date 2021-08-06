@@ -354,6 +354,21 @@ a:hover {
   max-height: 5px;
 }
 
+/* Section 6 */
+
+#section6 {
+
+  margin: 50px;
+
+  color: #2c2e0f;
+
+}
+
+.fa-2x {
+    font-size: 6rem !important;
+    margin: 10px;
+}
+
 /* Footer */
 
 .Copyright {
