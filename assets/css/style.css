@@ -382,7 +382,268 @@ a:hover {
 
 /**/
 
+/*///////////////////*/	/* SECTION 8 */
 
+/*Ma Below section8 Section 8 Styles*/
+
+#section8 {
+
+  background: #FDFADE url('../../assets/img/logo/Hieraldry.svg') 90% -10px no-repeat;
+
+  padding: 50px;
+}
+
+#section8 .num {
+  display: table;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2c2e0f;
+  line-height: 24px;
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  background: #D2C98B;
+  -webkit-boder-radius: 100%;
+  -moz-boder-radius: 100%;
+  border-radius: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+
+  margin: 10px;
+}
+
+/*#section8 .num .num-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#section8 .num span {
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#section8 h3 {
+	font-size: 15px !important;
+}*/
+
+/* Commented above changed from section 8 to 1 */
+/* Replaced by dividers */
+
+/**/
+
+
+/* Social MA Below */
+
+.badge.social {
+
+  /*background: #D2C98B;*/
+
+  background: #dccda6;
+
+  
+
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 5px 20px 0;
+  padding: 0;
+  -webkit-border-radius: 50px;
+  -moz-boder-radius: 50px;
+  border-radius: 50px;
+
+  color: #2c2e0f;
+}
+
+.badge.social.twitter:hover  {
+  background: #55acee;
+  color: #EADCA5;
+  transition: 1s ease-in-out;
+}
+
+.badge.social.facebook:hover  {
+  background: #3b5998;
+  color: #EADCA5;
+  transition: 1s ease-in-out;
+}
+
+.badge.social.gplus:hover  {
+  background: #db4b39;
+  color: #EADCA5;
+  transition: 1s ease-in-out;
+}
+
+.badge.social.instagram:hover {
+  background: #bc2a8d;
+  color: #EADCA5;
+  transition: 1s ease-in-out;
+}
+
+.badge.social.linkedin:hover{
+  background: #2867b2;
+  color: #EADCA5;
+  transition: 1s ease-in-out;
+}
+
+.badge.social.youtube:hover{
+  background: #FF0000;
+  color: #EADCA5;
+  transition: 1s ease-in-out;
+}
+
+/*  */
+
+hr {
+  color: #5F5D4A;
+  opacity:1;
+}
+
+/*  */
+
+#section8 h3 {
+  font-size: 26px;
+}
+
+#section8 small {
+  font-size: 14px;
+}
+
+/*  */
+
+#dividers-line {
+  margin-top: 30px 0 60px;
+  text-align: center;
+}
+
+#dividers-line .divider-section1 {
+  display: inline-block;
+  margin: 0 2% 0 0;
+
+  background: #2c2e0f;
+
+  padding: 10px 20px 30px;
+
+  position: relative;
+  vertical-align: top;
+  color: #D2C98B;
+
+  text-align: center !important;
+}
+
+#dividers-line .divider-section1 span {
+  background: #fcebb7;
+  background: #efdeb3;
+  display: block;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  margin-left: -35px;
+  color: #2c2e0f;
+}
+
+#dividers-line h4 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* h4 {
+  font-size: 18px;
+} */
+
+#dividers-line h4 small {
+
+  font-weight: bold;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+/*///////////////////*/	/* SECTION 9 */
+
+#section9 {
+  /*text-align: center;*/
+  padding: 50px;
+  text-align: left;
+
+  background-color: rgba(95, 93, 74, 0.2);
+
+  
+
+  color: #2c2e0f !important;
+
+
+}
+
+#section9 {
+  /*text-align: center;*/
+}
+
+#section9 h2 {
+  /*font-family: 'LASVALLESTexturedRegular';*/
+  font-size: 50px;
+  text-transform: uppercase;
+
+  font-family: 'ArchiveGaramondExp';
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blockquote {
+  padding: 0;
+  border: none;
+  font-style: italic;
+  text-align: left;
+}
+
+blockquote cite {
+  display: block;
+  color: #777;
+  margin: 15px 0 0 0;
+}
+
+blockquote:before {
+  display: none;
+}
+
+/**/
 
 
 
