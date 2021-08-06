@@ -319,6 +319,23 @@ a:hover {
   font-size: 42px;
 }
 
+/* Section 4 */
+
+#section4{
+  background: #FDFADE;
+  padding: 50px;
+}
+
+#section4 img{
+  height: 150px;
+  margin-left: -15px;
+  
+}
+
+#section4 h2 {
+    text-transform: uppercase;
+}
+
 /* Footer */
 
 .Copyright {
