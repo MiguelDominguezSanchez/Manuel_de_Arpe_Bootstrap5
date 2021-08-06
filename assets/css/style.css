@@ -176,3 +176,32 @@ background-color: #3A2C15 ;
 .nav-link {
   color: #32361C !important;
 }
+
+a:hover {
+  color: #5F5D4A !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  /* bottom: 15rem; */
+  top: 20rem;
+  left: 60%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption h5 {
+  font-family: 'RobotoRegular';
+  font-size: 72px;
+  color: #C4BDA2;
+}
+
+.carousel-caption p {
+  font-family: 'RobotoRegular';
+  font-size: 24px;
+  color: #FDFAE0;
+
+}
