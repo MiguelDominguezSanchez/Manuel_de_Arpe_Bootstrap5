@@ -26,7 +26,7 @@
 
 /* Inconsolata */
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap'); */
 
 /*  */
 
@@ -274,7 +274,7 @@ a:hover {
   position: absolute;
   right: 15%;
   /* bottom: 15rem; */
-  top: 20rem;
+  top: 10rem;
   left: 60%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -408,6 +408,13 @@ a:hover {
   text-rendering: optimizelegibility;
 
   margin: 10px;
+}
+
+/*  */
+
+.dropcap {
+  font-size: 36px;
+  margin-right: -5px;
 }
 
 /* Social MA Below */
